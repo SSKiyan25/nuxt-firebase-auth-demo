@@ -44,6 +44,7 @@
 
   definePageMeta({
     layout: "no-nav",
+    middleware: "already-logged-in",
   });
 
   const auth = useFirebaseAuth();
